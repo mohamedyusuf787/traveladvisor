@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+.navbar__menu ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+.navbar__links{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 12px 16px;
+    border:  none;
+    border-radius: 90px;
+    cursor: pointer;
+}
+.category_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.category_section__s2{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+.s2-1,.s2-2,.s2-3,.s2-4{
+    display: flex;
+    align-items: center;
+    gap:  4px;
+}
+.category_section__s3{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    padding: 4px;
+    margin-top: 10px;
+    gap: 8px;
+    justify-content: space-between;
+    background-color: #dfdfdf;
+    border: 2px solid black;
+    border-radius: 90px;
+}
+.s3-search_group{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.category_section__s3 input{
+    background-color:#dfdfdf ;
+    border: none;
+}
+
+.cta_container{
+display: flex;
+    width: 100%;
+    margin-top: 80px;
+    justify-content:center;
+    align-items: center;
+}
+.cta_container-section{
+    display: flex;
+    gap: 10px;
+    width: 75%;
+    height: auto;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #00EB5B;
+}
+.cta_container-image{
+    display: flex;
+    width: 75%;
+}
+.cta_container-image img{
+    flex-grow: 1;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+vr{
+    border: solid 1px black;
+}
+.cta_container-content{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.findthings{
+    margin-top: 80px;
+    padding: 20px;
+}
+.image_cards{
+    display: flex;
+    justify-content: space-between;    
+    gap: 10px;
+}
+.image_card{
+    display: flex;
+    position: relative;
+
+}
+.image_card h2{
+    color: white;
+position:absolute;
+bottom: 10px;
+left: 10px;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 5%, #000000 110%);
+    z-index: 0;
+    border-radius: 10px;
+}
+.image_card img{
+   
+    border-radius: 10px;
+}
