@@ -292,9 +292,13 @@ vr {
     align-items: center;
     width: 32px;
     height: 32px;
-    background-color: rgb(177, 190, 201);
+    background-color: rgb(231, 231, 231);
     border: 2px solid black;
     border-radius: 100%;
+}
+.liked {
+    color: red !important;
+    font-weight: 900;
 }
 
 .hearticon i {
@@ -700,6 +704,10 @@ footer {
         height: 200px;
     }
 
+    .image_card img{
+        height: 300px;
+    }
+
    
     .image_cards2 {
         display: flex;
@@ -749,6 +757,11 @@ footer {
 
     .image_cards2 {
         text-align: left;
+        line-height: 22px;
+    }
+
+    .image_cards2__content{
+        gap: 4px;
     }
 
     .travellerchoice {
@@ -772,6 +785,10 @@ footer {
 
     /* mobile footer */
     /* --- BASE STYLE --- */
+
+    footer{
+        padding: 40px;
+    }
 
     .footer_sections {
         display: flex;
