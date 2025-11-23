@@ -121,15 +121,15 @@
                 <img src="./images/city2.jpg">
                 <!-- heraticon -->
                 <div class="hearticon">
-                    <i class="fa-regular fa-heart xl"  id="heartIcon" style="color: #000000;"></i>
+                    <i class="fa-regular fa-heart xl" id="heartIcon" style="color: #000000;"></i>
                     <div class="circle"></div>
 
                 </div>
                 <div class="image_cards2__content">
-                <h3>Amsterdam Light Festival Canal Cruise With Unlimited Drinks</h3>
-                <p>5.0 (43)</p>
-                <p>from $13,655 per adult</p>
-                 </div>
+                    <h3>Amsterdam Light Festival Canal Cruise With Unlimited Drinks</h3>
+                    <p>5.0 (43)</p>
+                    <p>from $13,655 per adult</p>
+                </div>
             </div>
             <div class="image_card2">
                 <img src="./images/city3.jpg">
@@ -137,11 +137,13 @@
                 <div class="hearticon">
                     <i class="fa-regular fa-heart xl" id="heartIcon" style="color: #000000;"></i>
                     <div class="circle"></div>
+
                 </div>
                 <div class="image_cards2__content">
-                <h3>Dyker Heights Brooklyn Christmas Lights Tour</h3>
-                <p>5.0 (20)</p>
-                <p>from $13,655 per adult</p> </div>
+                    <h3>Dyker Heights Brooklyn Christmas Lights Tour</h3>
+                    <p>5.0 (20)</p>
+                    <p>from $13,655 per adult</p>
+                </div>
             </div>
             <div class="image_card2">
                 <img src="./images/temple.jpg">
@@ -150,24 +152,26 @@
                     <i class="fa-regular fa-heart xl" id="heartIcon" style="color: #000000;"></i>
                     <div class="circle"></div>
                 </div>
-                
+
                 <div class="image_cards2__content">
-                <h3>Private Day tour from trichy to tanjore and kumbakonam</h3>
-                <p>5.0 (27)</p>
-                <p>from $13,655 per adult</p> </div>
+                    <h3>Private Day tour from trichy to tanjore and kumbakonam</h3>
+                    <p>5.0 (27)</p>
+                    <p>from $13,655 per adult</p>
+                </div>
             </div>
             <div class="image_card2">
                 <img src="./images/city4.jpg">
-                <!-- heraticon -->
+               heraticon 
                 <div class="hearticon">
                     <i class="fa-regular fa-heart xl" id="heartIcon" style="color: #000000;"></i>
-                    <div class="circle"></div> </div>
+                    <div class="circle"></div>
                 </div>
-                
-                <div class="image_cards2__content">
+
+            <div class="image_cards2__content">
                 <h3>Chicago-Style Holiday Hike: Festive Food and Walking Tour</h3>
                 <p>5.0 (5)</p>
                 <p>from $13,655 per adult</p>
+            </div>
             </div>
         </div>
     </div>
@@ -213,9 +217,10 @@
                     <div class="circle"></div>
                 </div>
                 <div class="image_cards2__content">
-                <h3>Private Day tour from trichy to tanjore and kumbakonam</h3>
-                <p>5.0 (27)</p>
-                <p>from $13,655 per adult</p> </div>
+                    <h3>Private Day tour from trichy to tanjore and kumbakonam</h3>
+                    <p>5.0 (27)</p>
+                    <p>from $13,655 per adult</p>
+                </div>
             </div>
             <div class="image_card2">
                 <img src="./images/city2.jpg">
@@ -225,9 +230,10 @@
                     <div class="circle"></div>
                 </div>
                 <div class="image_cards2__content">
-                <h3>Amsterdam Light Festival Canal Cruise With Unlimited Drinks</h3>
-                <p>5.0 (43)</p>
-                <p>from $13,655 per adult</p> </div>
+                    <h3>Amsterdam Light Festival Canal Cruise With Unlimited Drinks</h3>
+                    <p>5.0 (43)</p>
+                    <p>from $13,655 per adult</p>
+                </div>
             </div>
             <div class="image_card2">
                 <img src="./images/city3.jpg">
@@ -237,9 +243,10 @@
                     <div class="circle"></div>
                 </div>
                 <div class="image_cards2__content">
-                <h3>Dyker Heights Brooklyn Christmas Lights Tour</h3>
-                <p>5.0 (20)</p>
-                <p>from $13,655 per adult</p> </div>
+                    <h3>Dyker Heights Brooklyn Christmas Lights Tour</h3>
+                    <p>5.0 (20)</p>
+                    <p>from $13,655 per adult</p>
+                </div>
             </div>
             <div class="image_card2">
                 <img src="./images/city4.jpg">
@@ -249,9 +256,10 @@
                     <div class="circle"></div>
                 </div>
                 <div class="image_cards2__content">
-                <h3>Chicago-Style Holiday Hike: Festive Food and Walking Tour</h3>
-                <p>5.0 (5)</p>
-                <p>from $13,655 per adult</p></div>
+                    <h3>Chicago-Style Holiday Hike: Festive Food and Walking Tour</h3>
+                    <p>5.0 (5)</p>
+                    <p>from $13,655 per adult</p>
+                </div>
             </div>
         </div>
     </div>
@@ -492,17 +500,17 @@
         });
     });
 
-        document.querySelector(".hearticon").addEventListener("click", function () {
-    const heart = document.getElementById("heartIcon");
+    document.querySelector(".hearticon").addEventListener("click", function () {
+        const heart = document.getElementById("heartIcon");
 
-    if (heart.classList.contains("liked")) {
-        heart.classList.remove("liked");
-        heart.classList.replace("fa-solid", "fa-regular");
-    } else {
-        heart.classList.add("liked");
-        heart.classList.replace("fa-regular", "fa-solid");
-    }
-});
+        if (heart.classList.contains("liked")) {
+            heart.classList.remove("liked");
+            heart.classList.replace("fa-solid", "fa-regular");
+        } else {
+            heart.classList.add("liked");
+            heart.classList.replace("fa-regular", "fa-solid");
+        }
+    });
 
 
 
