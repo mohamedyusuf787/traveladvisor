@@ -828,4 +828,12 @@ footer {
         display: flex;
         flex-direction: column;
     }
+
+    .ask_online p{
+        border-radius: 99px;
+        display: none;
+        height: 20px;
+        padding: 20px;
+        color: white;
+    }
 }
