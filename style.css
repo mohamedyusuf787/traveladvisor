@@ -149,6 +149,10 @@ navbar {
     border: none;
 }
 
+.category_section__s3 input:focus{
+    border:none;
+}
+
 .cta_container {
     display: flex;
     width: 100%;
